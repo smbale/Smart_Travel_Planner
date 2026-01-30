@@ -35,7 +35,7 @@ To view the landing page locally:
 ## Contact & Links
 
 -   **Website**: [mappibiz.com](https://mappibiz.com/)
--   **Plan Your Trip**: [Direct Link](https://9000-firebase-firebase-ai-tripmate-1747142831567.cluster-6vyo4gb53jczovun3dxslzjahs.cloudworkstations.dev/?monospaceUid=367831)
--   **Explore Places**: [Google AI Studio Prompts](https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221lfTiJiV1IVATCvROYoebviy0p0MFYghO%22%5D,%22action%22:%22open%22,%22userId%22:%22109847912981686925895%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing)
+-   **Plan Your Trip**: [Direct Link](https://plantrip.mappibiz.com)
+-   **Explore Places**: [Google AI Studio Prompts](https://planner.mappibiz.com)
 
 © Mappibiz 2026
