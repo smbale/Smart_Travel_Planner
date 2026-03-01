@@ -21,16 +21,28 @@ Smart Travel Planner is an AI-powered platform designed to simplify your journey
 
 ## Getting Started
 
+### Local Development
 To view the landing page locally:
 1.  Clone the repository.
 2.  Open `index.html` in any modern web browser.
 
+### Deployment (Google Cloud Run)
+This project is configured for deployment to Google Cloud Run using the provided `Dockerfile`.
+
+To deploy:
+1.  **Build and deploy using gcloud**:
+    ```sh
+    gcloud run deploy smart-travel-planner --source . --region us-central1 --allow-unauthenticated
+    ```
+2.  Once complete, the command line will output the Service URL where your application is live.
+
 ## Project Structure
 
 -   `index.html`: The main entry point and landing page.
--   `css2`: Stylesheet related files (likely from Google Fonts).
+-   `Dockerfile`: Configuration for containerizing the application.
+-   `.dockerignore`: List of files to exclude from the container image.
+-   `css2`: Stylesheet related files.
 -   `*.svg`: UI components and browser frame illustrations.
--   `assets/`: (Inferred) External assets linked via storage.googleapis.com and lummi.ai.
 
 ## Contact & Links
 
